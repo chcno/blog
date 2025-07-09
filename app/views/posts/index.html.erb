@@ -1,0 +1,18 @@
+<div class="w-full mx-auto px-4">
+
+  <div class="flex justify-between items-center mb-4">
+    <h1 class="text-3xl font-bold">Todos los posts</h1>
+  </div>
+
+  <% @posts.each do |post| %>
+    <div class="bg-white shadow rounded p-4 mb-4">
+      <h2 class="text-xl font-semibold"><%= post.title %></h2>
+      <p class="text-gray-700 mt-2"><%= truncate(post.content, length: 150) %></p>
+      <div class="flex gap-2 mt-4">
+        <%= link_to "Ver", posts_show_path(post), class: "bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600" %>
+        <%= link_to "Editar", posts_edit_path(post), class: "bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600" %>
+        <%= button_to "Eliminar", posts_destroy_path(post), method: :delete, data: { confirm: "¿Estás seguro?" }, class: "bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600" %>
+      </div>
+    </div>
+  <% end %>
+</div>
