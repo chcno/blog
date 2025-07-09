@@ -22,5 +22,6 @@ gem "rails", "~> 8.0.2"
 
 
 
-```markdown
+## 📦 Screenshot de la app
+
 ![Blog Screenshot](./app_screenshot.png)
