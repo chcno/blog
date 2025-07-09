@@ -20,6 +20,7 @@ Este proyecto forma parte de mi portafolio, demostrando habilidades en desarroll
 ```ruby
 gem "rails", "~> 8.0.2"
 
+---
 
 
 ## 📦 Screenshot de la app
