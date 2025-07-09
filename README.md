@@ -1,24 +1,22 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Blog** es una aplicación web desarrollada con [Ruby on Rails](https://rubyonrails.org/) **8.0.2** y [Tailwind CSS](https://tailwindcss.com/).  
+Permite gestionar publicaciones (posts) mediante creación, edición y eliminación, con validaciones para asegurar calidad de los datos.  
+Este proyecto forma parte de mi portafolio, demostrando habilidades en desarrollo web backend y frontend.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🚀 Tecnologías
 
-* System dependencies
+- Ruby 3.x
+- Ruby on Rails 8.0.2
+- Tailwind CSS
+- SQLite3 (en entorno de desarrollo)
 
-* Configuration
+---
 
-* Database creation
+## 📦 Gemfile destacado
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+gem "rails", "~> 8.0.2"
+![Blog Screenshot](./app_screenshot.png)
